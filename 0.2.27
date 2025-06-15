@@ -1,0 +1,1298 @@
+Retrieving notices: - \ | / - \ done
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: C:\Users\victo\.conda\envs\iaGenPd
+
+  added / updated specs:
+    - langchain-core
+    - langgraph
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    annotated-types-0.7.0      |     pyhd8ed1ab_1          18 KB  conda-forge
+    anyio-4.9.0                |     pyh29332c3_0         123 KB  conda-forge
+    brotli-python-1.1.0        |  py313h5813708_3         314 KB  conda-forge
+    ca-certificates-2025.4.26  |       h4c7d964_0         149 KB  conda-forge
+    certifi-2025.4.26          |     pyhd8ed1ab_0         154 KB  conda-forge
+    cffi-1.17.1                |  py313ha7868ed_0         285 KB  conda-forge
+    charset-normalizer-3.4.2   |     pyhd8ed1ab_0          49 KB  conda-forge
+    exceptiongroup-1.3.0       |     pyhd8ed1ab_0          21 KB  conda-forge
+    h11-0.16.0                 |     pyhd8ed1ab_0          37 KB  conda-forge
+    h2-4.2.0                   |     pyhd8ed1ab_0          53 KB  conda-forge
+    hpack-4.1.0                |     pyhd8ed1ab_0          30 KB  conda-forge
+    httpcore-1.0.9             |     pyh29332c3_0          48 KB  conda-forge
+    httpx-0.28.1               |     pyhd8ed1ab_0          62 KB  conda-forge
+    httpx-sse-0.4.0            |     pyhd8ed1ab_1          13 KB  conda-forge
+    hyperframe-6.1.0           |     pyhd8ed1ab_0          17 KB  conda-forge
+    idna-3.10                  |     pyhd8ed1ab_1          49 KB  conda-forge
+    jsonpatch-1.33             |     pyhd8ed1ab_1          17 KB  conda-forge
+    jsonpointer-3.0.0          |  py313hfa70ccb_1          42 KB  conda-forge
+    langchain-core-0.3.65      |     pyhd8ed1ab_0         278 KB  conda-forge
+    langgraph-0.4.8            |     pyhd8ed1ab_0         109 KB  conda-forge
+    langgraph-checkpoint-2.0.26|     pyhd8ed1ab_0          41 KB  conda-forge
+    langgraph-prebuilt-0.2.2   |     pyhd8ed1ab_0          26 KB  conda-forge
+    langgraph-sdk-0.1.70       |     pyhd8ed1ab_0          39 KB  conda-forge
+    langsmith-0.3.45           |     pyhd8ed1ab_0         294 KB  conda-forge
+    msgpack-python-1.1.1       |  py313h1ec8472_0          85 KB  conda-forge
+    openssl-3.5.0              |       ha4e3fda_1         8.6 MB  conda-forge
+    orjson-3.10.18             |  py313ha8a9a3c_1         203 KB  conda-forge
+    ormsgpack-1.10.0           |  py313h677e9ad_0         135 KB  conda-forge
+    packaging-24.2             |     pyhd8ed1ab_2          59 KB  conda-forge
+    pycparser-2.22             |     pyh29332c3_1         108 KB  conda-forge
+    pydantic-2.11.6            |     pyh3cfb1c2_0         300 KB  conda-forge
+    pydantic-core-2.33.2       |  py313ha8a9a3c_0         1.8 MB  conda-forge
+    pysocks-1.7.1              |     pyh09c184e_7          21 KB  conda-forge
+    python-xxhash-3.5.0        |  py313ha7868ed_2          24 KB  conda-forge
+    pyyaml-6.0.2               |  py313hb4c8b1a_2         178 KB  conda-forge
+    requests-2.32.4            |     pyhd8ed1ab_0          58 KB  conda-forge
+    requests-toolbelt-1.0.0    |     pyhd8ed1ab_1          43 KB  conda-forge
+    sniffio-1.3.1              |     pyhd8ed1ab_1          15 KB  conda-forge
+    tenacity-9.1.2             |     pyhd8ed1ab_0          25 KB  conda-forge
+    typing-extensions-4.14.0   |       h32cad80_0          88 KB  conda-forge
+    typing-inspection-0.4.1    |     pyhd8ed1ab_0          18 KB  conda-forge
+    typing_extensions-4.14.0   |     pyhe01879c_0          50 KB  conda-forge
+    ucrt-10.0.22621.0          |       h57928b3_1         547 KB  conda-forge
+    urllib3-2.4.0              |     pyhd8ed1ab_0          98 KB  conda-forge
+    vc14_runtime-14.42.34438   |      hfd919c2_26         733 KB  conda-forge
+    vs2015_runtime-14.42.34438 |      h7142326_26          17 KB  conda-forge
+    win_inet_pton-1.1.0        |     pyh7428d3b_8           9 KB  conda-forge
+    xxhash-0.8.3               |       hbba6f48_0         103 KB  conda-forge
+    yaml-0.2.5                 |       h8ffe710_2          62 KB  conda-forge
+    zstandard-0.23.0           |  py313ha7868ed_2         439 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        16.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  annotated-types    conda-forge/noarch::annotated-types-0.7.0-pyhd8ed1ab_1 
+  anyio              conda-forge/noarch::anyio-4.9.0-pyh29332c3_0 
+  brotli-python      conda-forge/win-64::brotli-python-1.1.0-py313h5813708_3 
+  certifi            conda-forge/noarch::certifi-2025.4.26-pyhd8ed1ab_0 
+  cffi               conda-forge/win-64::cffi-1.17.1-py313ha7868ed_0 
+  charset-normalizer conda-forge/noarch::charset-normalizer-3.4.2-pyhd8ed1ab_0 
+  exceptiongroup     conda-forge/noarch::exceptiongroup-1.3.0-pyhd8ed1ab_0 
+  h11                conda-forge/noarch::h11-0.16.0-pyhd8ed1ab_0 
+  h2                 conda-forge/noarch::h2-4.2.0-pyhd8ed1ab_0 
+  hpack              conda-forge/noarch::hpack-4.1.0-pyhd8ed1ab_0 
+  httpcore           conda-forge/noarch::httpcore-1.0.9-pyh29332c3_0 
+  httpx              conda-forge/noarch::httpx-0.28.1-pyhd8ed1ab_0 
+  httpx-sse          conda-forge/noarch::httpx-sse-0.4.0-pyhd8ed1ab_1 
+  hyperframe         conda-forge/noarch::hyperframe-6.1.0-pyhd8ed1ab_0 
+  idna               conda-forge/noarch::idna-3.10-pyhd8ed1ab_1 
+  jsonpatch          conda-forge/noarch::jsonpatch-1.33-pyhd8ed1ab_1 
+  jsonpointer        conda-forge/win-64::jsonpointer-3.0.0-py313hfa70ccb_1 
+  langchain-core     conda-forge/noarch::langchain-core-0.3.65-pyhd8ed1ab_0 
+  langgraph          conda-forge/noarch::langgraph-0.4.8-pyhd8ed1ab_0 
+  langgraph-checkpo~ conda-forge/noarch::langgraph-checkpoint-2.0.26-pyhd8ed1ab_0 
+  langgraph-prebuilt conda-forge/noarch::langgraph-prebuilt-0.2.2-pyhd8ed1ab_0 
+  langgraph-sdk      conda-forge/noarch::langgraph-sdk-0.1.70-pyhd8ed1ab_0 
+  langsmith          conda-forge/noarch::langsmith-0.3.45-pyhd8ed1ab_0 
+  msgpack-python     conda-forge/win-64::msgpack-python-1.1.1-py313h1ec8472_0 
+  orjson             conda-forge/win-64::orjson-3.10.18-py313ha8a9a3c_1 
+  ormsgpack          conda-forge/win-64::ormsgpack-1.10.0-py313h677e9ad_0 
+  packaging          conda-forge/noarch::packaging-24.2-pyhd8ed1ab_2 
+  pycparser          conda-forge/noarch::pycparser-2.22-pyh29332c3_1 
+  pydantic           conda-forge/noarch::pydantic-2.11.6-pyh3cfb1c2_0 
+  pydantic-core      conda-forge/win-64::pydantic-core-2.33.2-py313ha8a9a3c_0 
+  pysocks            conda-forge/noarch::pysocks-1.7.1-pyh09c184e_7 
+  python-xxhash      conda-forge/win-64::python-xxhash-3.5.0-py313ha7868ed_2 
+  pyyaml             conda-forge/win-64::pyyaml-6.0.2-py313hb4c8b1a_2 
+  requests           conda-forge/noarch::requests-2.32.4-pyhd8ed1ab_0 
+  requests-toolbelt  conda-forge/noarch::requests-toolbelt-1.0.0-pyhd8ed1ab_1 
+  sniffio            conda-forge/noarch::sniffio-1.3.1-pyhd8ed1ab_1 
+  tenacity           conda-forge/noarch::tenacity-9.1.2-pyhd8ed1ab_0 
+  typing-extensions  conda-forge/noarch::typing-extensions-4.14.0-h32cad80_0 
+  typing-inspection  conda-forge/noarch::typing-inspection-0.4.1-pyhd8ed1ab_0 
+  typing_extensions  conda-forge/noarch::typing_extensions-4.14.0-pyhe01879c_0 
+  ucrt               conda-forge/win-64::ucrt-10.0.22621.0-h57928b3_1 
+  urllib3            conda-forge/noarch::urllib3-2.4.0-pyhd8ed1ab_0 
+  vc14_runtime       conda-forge/win-64::vc14_runtime-14.42.34438-hfd919c2_26 
+  win_inet_pton      conda-forge/noarch::win_inet_pton-1.1.0-pyh7428d3b_8 
+  xxhash             conda-forge/win-64::xxhash-0.8.3-hbba6f48_0 
+  yaml               conda-forge/win-64::yaml-0.2.5-h8ffe710_2 
+  zstandard          conda-forge/win-64::zstandard-0.23.0-py313ha7868ed_2 
+
+The following packages will be UPDATED:
+
+  ca-certificates    pkgs/main/win-64::ca-certificates-202~ --> conda-forge/noarch::ca-certificates-2025.4.26-h4c7d964_0 
+  openssl              pkgs/main::openssl-3.0.16-h3f729d1_0 --> conda-forge::openssl-3.5.0-ha4e3fda_1 
+  vs2015_runtime     pkgs/main::vs2015_runtime-14.42.34433~ --> conda-forge::vs2015_runtime-14.42.34438-h7142326_26 
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages: ...working...openssl-3.5.0        | 8.6 MB    |            |   0% 
+pydantic-core-2.33.2 | 1.8 MB    |            |   0% [A
+
+vc14_runtime-14.42.3 | 733 KB    |            |   0% [A[A
+
+
+ucrt-10.0.22621.0    | 547 KB    |            |   0% [A[A[A
+
+
+
+zstandard-0.23.0     | 439 KB    |            |   0% [A[A[A[A
+
+
+
+
+brotli-python-1.1.0  | 314 KB    |            |   0% [A[A[A[A[A
+
+
+
+
+
+pydantic-2.11.6      | 300 KB    |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+langsmith-0.3.45     | 294 KB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+cffi-1.17.1          | 285 KB    |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+langchain-core-0.3.6 | 278 KB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+orjson-3.10.18       | 203 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+pyyaml-6.0.2         | 178 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+certifi-2025.4.26    | 154 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+ca-certificates-2025 | 149 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ormsgpack-1.10.0     | 135 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anyio-4.9.0          | 123 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+langgraph-0.4.8      | 109 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pycparser-2.22       | 108 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xxhash-0.8.3         | 103 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Aopenssl-3.5.0        | 8.6 MB    |            |   0% openssl-3.5.0        | 8.6 MB    | 7          |   8% 
+pydantic-core-2.33.2 | 1.8 MB    |            |   1% [A
+
+
+
+zstandard-0.23.0     | 439 KB    | 3          |   4% [A[A[A[A
+
+
+ucrt-10.0.22621.0    | 547 KB    | 2          |   3% [A[A[Aopenssl-3.5.0        | 8.6 MB    | #6         |  17% 
+pydantic-core-2.33.2 | 1.8 MB    | 9          |   9% [A
+
+vc14_runtime-14.42.3 | 733 KB    | 2          |   2% [A[A
+
+
+
+zstandard-0.23.0     | 439 KB    | ####3      |  44% [A[A[A[A
+
+
+ucrt-10.0.22621.0    | 547 KB    | ##         |  20% [A[A[A
+
+vc14_runtime-14.42.3 | 733 KB    | #5         |  15% [A[A
+pydantic-core-2.33.2 | 1.8 MB    | #6         |  16% [Aopenssl-3.5.0        | 8.6 MB    | ##3        |  23% 
+
+
+ucrt-10.0.22621.0    | 547 KB    | #####8     |  59% [A[A[A
+
+
+
+zstandard-0.23.0     | 439 KB    | #########4 |  95% [A[A[A[A
+
+
+
+zstandard-0.23.0     | 439 KB    | ########## | 100% [A[A[A[A
+
+vc14_runtime-14.42.3 | 733 KB    | ###2       |  33% [A[A
+pydantic-core-2.33.2 | 1.8 MB    | ##3        |  23% [A
+
+
+ucrt-10.0.22621.0    | 547 KB    | ########## | 100% [A[A[Aopenssl-3.5.0        | 8.6 MB    | ###2       |  32% 
+
+
+
+zstandard-0.23.0     | 439 KB    | ########## | 100% [A[A[A[A
+
+
+
+
+brotli-python-1.1.0  | 314 KB    | 5          |   5% [A[A[A[A[A
+
+vc14_runtime-14.42.3 | 733 KB    | #####8     |  59% [A[A
+pydantic-core-2.33.2 | 1.8 MB    | ###6       |  37% [Aopenssl-3.5.0        | 8.6 MB    | ###8       |  38% 
+
+
+
+
+brotli-python-1.1.0  | 314 KB    | ########1  |  81% [A[A[A[A[A
+
+
+
+
+brotli-python-1.1.0  | 314 KB    | ########## | 100% [A[A[A[A[A
+pydantic-core-2.33.2 | 1.8 MB    | ####8      |  48% [A
+
+vc14_runtime-14.42.3 | 733 KB    | ########9  |  89% [A[A
+
+
+ucrt-10.0.22621.0    | 547 KB    | ########## | 100% [A[A[A
+
+
+
+
+
+pydantic-2.11.6      | 300 KB    | 5          |   5% [A[A[A[A[A[A
+
+
+ucrt-10.0.22621.0    | 547 KB    | ########## | 100% [A[A[A
+
+vc14_runtime-14.42.3 | 733 KB    | ########## | 100% [A[Aopenssl-3.5.0        | 8.6 MB    | ####4      |  45% 
+
+
+
+
+brotli-python-1.1.0  | 314 KB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+pydantic-2.11.6      | 300 KB    | ########## | 100% [A[A[A[A[A[A
+pydantic-core-2.33.2 | 1.8 MB    | #####7     |  58% [A
+
+
+
+
+
+
+langsmith-0.3.45     | 294 KB    | 5          |   5% [A[A[A[A[A[A[Aopenssl-3.5.0        | 8.6 MB    | #####1     |  52% 
+
+vc14_runtime-14.42.3 | 733 KB    | ########## | 100% [A[A
+pydantic-core-2.33.2 | 1.8 MB    | ######7    |  67% [A
+
+
+
+
+
+
+
+cffi-1.17.1          | 285 KB    | 5          |   6% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+langchain-core-0.3.6 | 278 KB    | 5          |   6% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+langsmith-0.3.45     | 294 KB    | ########1  |  82% [A[A[A[A[A[A[Aopenssl-3.5.0        | 8.6 MB    | #####7     |  58% 
+
+
+
+
+
+
+
+cffi-1.17.1          | 285 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+pydantic-core-2.33.2 | 1.8 MB    | ########   |  81% [A
+
+
+
+
+
+
+
+
+langchain-core-0.3.6 | 278 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+langsmith-0.3.45     | 294 KB    | ########## | 100% [A[A[A[A[A[A[Aopenssl-3.5.0        | 8.6 MB    | ######3    |  63% 
+
+
+
+
+
+pydantic-2.11.6      | 300 KB    | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+pydantic-2.11.6      | 300 KB    | ########## | 100% [A[A[A[A[A[A
+pydantic-core-2.33.2 | 1.8 MB    | #########4 |  95% [A
+
+
+
+
+
+
+
+cffi-1.17.1          | 285 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+cffi-1.17.1          | 285 KB    | ########## | 100% [A[A[A[A[A[A[A[Aopenssl-3.5.0        | 8.6 MB    | ######8    |  69% 
+
+
+
+
+
+
+
+
+
+
+
+certifi-2025.4.26    | 154 KB    | #          |  10% [A[A[A[A[A[A[A[A[A[A[A[A
+pydantic-core-2.33.2 | 1.8 MB    | ########## | 100% [A
+
+
+
+
+
+
+
+
+
+
+pyyaml-6.0.2         | 178 KB    | 8          |   9% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+pyyaml-6.0.2         | 178 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+certifi-2025.4.26    | 154 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[Aopenssl-3.5.0        | 8.6 MB    | #######7   |  78% 
+pydantic-core-2.33.2 | 1.8 MB    | ########## | 100% [A
+
+
+
+
+
+
+langsmith-0.3.45     | 294 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+ca-certificates-2025 | 149 KB    | #          |  11% [A[A[A[A[A[A[A[A[A[A[A[A[Aopenssl-3.5.0        | 8.6 MB    | ########8  |  88% 
+
+
+
+
+
+
+
+
+
+
+
+
+ca-certificates-2025 | 149 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+certifi-2025.4.26    | 154 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+certifi-2025.4.26    | 154 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anyio-4.9.0          | 123 KB    | #2         |  13% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anyio-4.9.0          | 123 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Aopenssl-3.5.0        | 8.6 MB    | ########## | 100% openssl-3.5.0        | 8.6 MB    | ########## | 100% 
+
+
+
+
+
+
+
+
+
+
+
+
+ca-certificates-2025 | 149 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+ca-certificates-2025 | 149 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+orjson-3.10.18       | 203 KB    | 7          |   8% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+pyyaml-6.0.2         | 178 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+pyyaml-6.0.2         | 178 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ormsgpack-1.10.0     | 135 KB    | #1         |  12% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+langgraph-0.4.8      | 109 KB    | #4         |  15% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ormsgpack-1.10.0     | 135 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+langchain-core-0.3.6 | 278 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pycparser-2.22       | 108 KB    | #4         |  15% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+langchain-core-0.3.6 | 278 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+orjson-3.10.18       | 203 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+langgraph-0.4.8      | 109 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pycparser-2.22       | 108 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ormsgpack-1.10.0     | 135 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ormsgpack-1.10.0     | 135 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xxhash-0.8.3         | 103 KB    | #5         |  15% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xxhash-0.8.3         | 103 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anyio-4.9.0          | 123 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anyio-4.9.0          | 123 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+orjson-3.10.18       | 203 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+orjson-3.10.18       | 203 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+langgraph-0.4.8      | 109 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+langgraph-0.4.8      | 109 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xxhash-0.8.3         | 103 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xxhash-0.8.3         | 103 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pycparser-2.22       | 108 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pycparser-2.22       | 108 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Aopenssl-3.5.0        | 8.6 MB    | ########## | 100%                                                      
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[ADeseja finalizar o arquivo em lotes (S/N)? 
